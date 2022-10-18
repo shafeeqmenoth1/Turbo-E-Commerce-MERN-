@@ -1,0 +1,33 @@
+
+.nav-icon{
+    background-color: red;
+}
+.item{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    position: relative;
+ 
+    cursor: pointer;
+}
+    .icon{
+        font-size: 20px;
+    }
+
+
+
+    .counter{
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+    }

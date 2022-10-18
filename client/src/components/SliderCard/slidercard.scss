@@ -1,0 +1,35 @@
+.sliderContainer{
+
+
+
+   .slider{
+  
+        
+   
+    .slick-arrow {
+        height: 35px;
+        width: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 30px;
+        background-color: #fff;
+        color: #032250 !important;
+        opacity: 0;
+        &.slick-next{
+            right: 1% !important;
+            z-index: 1;
+        }
+        &.slick-prev{
+            left: 1% !important;
+            z-index: 1;
+        }
+        
+    }
+    &:hover  .slick-arrow  {
+        opacity: 1;
+    }
+    }
+}

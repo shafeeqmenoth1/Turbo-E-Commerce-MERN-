@@ -1,0 +1,38 @@
+.special-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapper{
+
+            max-width: 1300px;
+    width: 100%;
+        display: flex;
+
+  
+
+    .right{
+        width: 50%;
+        border: 1px dotted #000;
+        margin: 20px 7px;
+        border-radius: 10px;
+    }
+    .left{
+        margin: 20px 7px;
+        width: 50%;
+        border: 1px dotted #000;
+        border-radius: 10px;
+    }
+    h3{
+        font-size: 22px;
+        color: #555;
+        padding-top: 10px;
+        padding-left: 20px;
+
+        .icon{
+            margin-right: 2px;
+            font-size: 23px;
+            color: rgb(253, 194, 0);
+        }
+    }
+}
+}

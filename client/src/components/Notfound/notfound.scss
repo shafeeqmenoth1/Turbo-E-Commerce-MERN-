@@ -1,0 +1,32 @@
+
+    
+  
+    .notfoundContainer{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+        h1{
+            font-size: 50px;
+            color: gray;
+            
+        }
+        h2{
+            font-weight: 600;
+            color: gray;
+        }
+        .back-btn{
+            margin-top: 20px;
+            width: 150px;
+            padding:15px 10px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            background-color: #032250;
+            color: #fff;
+        }
+    }
+

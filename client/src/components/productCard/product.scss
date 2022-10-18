@@ -1,0 +1,105 @@
+
+
+.product-wrapper{
+ 
+    border-radius:10px;
+    display: flex;
+ 
+    align-items: center;
+ 
+    flex-direction: column;
+    padding: 20px;
+   
+
+    .imagebox{
+        
+        border: 0.5px solid gray;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        object-fit: cover;
+        overflow: hidden;
+        position: relative;
+
+        .add-to-wish{
+            position: absolute;
+            top: -30px;
+            right: 5px;
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #032250;
+            color: #555;
+            transition: all 0.3s ease;
+           
+            .icon{
+                font-size: 18px;
+                cursor: pointer;
+                
+            }
+        }
+        img{
+            width: 100%;
+          
+        }
+    }
+    &:hover .add-to-wish {
+        top: 5px;
+        color: #fff;
+     }
+   
+
+    .productDetails{
+        
+        .title{
+            margin-top: 15px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .stars {
+            text-align: center;
+
+            span .icon{
+                margin: 2px;
+                color: rgba(250, 183, 0, 0.849);
+                font-size: 14px;
+               
+            }
+        }
+        .bottom{
+          
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .price{
+                font-size: 16px;
+               
+            }
+            .add-to-cart{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition:all 0.3s ease;
+                padding: 5px;
+                border-radius: 5px;
+                font-size: 14px;
+                
+                cursor: pointer;
+                transition: all 0.3s ease;
+                
+            }
+
+        }
+    }
+    &:hover .add-to-cart {
+        background-color: #032250;
+        color: #fff;
+     }
+    
+
+}
